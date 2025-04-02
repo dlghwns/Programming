@@ -16,7 +16,6 @@
 
 double calcPositonEnergy(int weight, int height) {
 	double energy = weight * height * 9.8;
-	printf("위치에너지 : %.6f J\n", energy);
 	return energy;
 
 }
@@ -29,7 +28,7 @@ void assignment0303() {
 	printf("높이(m)? ");
 	scanf("%d", &m);
 
-	calcPositonEnergy(kg, m);
+	printf("위치에너지 : %.6f J\n", calcPositonEnergy(kg, m));
 }
 
 
