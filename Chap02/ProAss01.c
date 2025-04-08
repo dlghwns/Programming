@@ -12,12 +12,14 @@
 
 #include <stdio.h>
 
-void solve() {
+void solve() 
+{
 	printf("int main(void)\n{ \n     return 0;\n}");
 }
 
 
-int main() {
+int main() 
+{
 	solve();
 	return 0;
 }

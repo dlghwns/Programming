@@ -15,7 +15,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-void solve() {
+void solve() 
+{
 	float n, m;
 
 	printf("Èû(N)? ");
@@ -27,7 +28,8 @@ void solve() {
 }
 
 
-int main() {
+int main()
+{
 	solve();
 	return 0;
 }

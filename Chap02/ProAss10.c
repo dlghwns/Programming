@@ -14,7 +14,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-void solve() {
+void solve() 
+{
 	printf("8진수로 입력하려면 012, 16진수로 입력하려면 0x12처럼 입력하세요.\n");
 	printf("정수? ");
 	int num;
@@ -24,7 +25,8 @@ void solve() {
 	printf("16진수 : %#x\n", num);
 }
 
-int main() {
+int main() 
+{
 	solve();
 	return 0;
 }

@@ -14,7 +14,8 @@
 #include <stdio.h>
 
 
-void solve() {
+void solve() 
+{
 	int a;
 	printf("한 변의 길이는? ");
 	scanf("%d", &a);
@@ -23,7 +24,8 @@ void solve() {
 }
 
 
-int main() {
+int main() 
+{
 	solve();
 	return 0;
 }

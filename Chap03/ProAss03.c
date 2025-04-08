@@ -14,13 +14,16 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-double calcPositonEnergy(int weight, int height) {
+double calcPositonEnergy(int weight, int height) 
+{
 	double energy = weight * height * 9.8;
 	return energy;
 
 }
 
-void assignment0303() {
+
+void assignment0303() 
+{
 	int kg, m;
 	printf("Áú·®(kg)? ");
 	scanf("%d", &kg);
@@ -33,9 +36,8 @@ void assignment0303() {
 
 
 
-
-
-int main() {
+int main() 
+{
 	assignment0303();
 	return 0;
 }

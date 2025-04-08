@@ -15,7 +15,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-void solve() {
+void solve() 
+{
 	double pi = 3.14159265;
 
 	printf("pi = %.2f\n", pi);
@@ -25,7 +26,8 @@ void solve() {
 	printf("pi = %e\n", pi);
 }
 
-int main() {
+int main() 
+{
 	solve();
 	return 0;
 }

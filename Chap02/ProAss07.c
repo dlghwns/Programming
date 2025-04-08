@@ -13,7 +13,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-void solve() {
+void solve() 
+{
 	printf("커피 사이즈(S, T, G)와 주문 수량?\n");
 	char size;
 	int howmany;
@@ -21,7 +22,8 @@ void solve() {
 	printf("%c 사이즈 %d잔을 주문합니다.\n", size, howmany);
 }
 
-int main() {
+int main()
+{
 	solve();
 	return 0;
 }

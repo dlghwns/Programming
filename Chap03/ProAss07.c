@@ -16,7 +16,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-void solve() {
+void solve() 
+{
 	double num;
 	printf("½Ç¼ö? ");
 	scanf("%lf", &num);
@@ -24,7 +25,9 @@ void solve() {
 	printf("¼¼Á¦°ö: %e\n", num * num * num);
 }
 
-int main() {
+
+int main()
+{
 	solve();
 	return 0;
 }

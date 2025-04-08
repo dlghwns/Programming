@@ -13,7 +13,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-void solve() {
+void solve() 
+{
 	int usd;
 	float dall;
 	printf("USD? ");
@@ -21,11 +22,11 @@ void solve() {
 	printf("원/달러 환율? ");
 	scanf("%f", &dall);
 	printf("USD %d = KRW %.2f", usd, usd*dall);
-
-
 }
 
-int main() {
+
+int main() 
+{
 	solve();
 	return 0;
 }

@@ -13,7 +13,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-void solve() {
+void solve() 
+{
 	int ga, sa;
 	printf("가로 길이는? ");
 	scanf("%d", &ga);
@@ -23,7 +24,8 @@ void solve() {
 	printf("직사각형의 둘레 : %d\n", 2 * (ga + sa));
 }
 
-int main() {
+int main() 
+{
 	solve();
 	return 0;
 

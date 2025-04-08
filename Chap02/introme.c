@@ -14,7 +14,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-void introme() {
+void introme() 
+{
 	int age;
 	char hello[256];
 	char name[256];
@@ -27,7 +28,8 @@ void introme() {
 }
 
 
-int main() {
+int main() 
+{
 
 	introme();
 	return 0;

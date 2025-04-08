@@ -12,14 +12,16 @@
 
 #include <stdio.h>
 
-void a() {
+void a() 
+{
 	printf("FirstApp 프로그램\n");
 	printf("작성자: 이호준\n");
 	printf("버전: 1.0\n");
 }
 
 
-int main() {
+int main() 
+{
 	a();
 	return 0;
 }

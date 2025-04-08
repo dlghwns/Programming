@@ -13,14 +13,16 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-void solve() {
+void solve() 
+{
 	printf("16진수 정수?\n");
 	int hex;
 	scanf("%x", &hex);
 	printf("16진수 %x는 10진수로 %d입니다.", hex, hex);
 }
 
-int main() {
+int main() 
+{
 	solve();
 	return 0;
 }

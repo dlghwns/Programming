@@ -15,15 +15,17 @@
 #include <stdio.h>
 const double PYUNG = 0.3025;
 
-void solve() {
+void solve() 
+{
 	float app_my;
 	printf("아파트의 면적(제곱미터)? ");
 	scanf("%f", &app_my);
 	printf("%.2f 제곱미터 = %.2f 평\n", app_my, app_my * PYUNG);
-
 }
 
-int main() {
+
+int main() 
+{
 	solve();
 	return 0;
 }
