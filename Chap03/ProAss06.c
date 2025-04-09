@@ -13,8 +13,15 @@
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+
 const double PYUNG = 0.3025;
 
+
+/*
+* 함수명 : solve()
+* 기능(책임) : 면적을 입력받아 상수 PYUNG으로 나눈값을 출력해준다.
+* 반환 : 없음
+*/
 void solve() 
 {
 	float app_my;

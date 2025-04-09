@@ -37,7 +37,7 @@ double getMotionEnergy(double mass, double speed)
 */
 int assignment0401(void)
 {
-	double mass, speed = 0;
+	double mass, speed = 0.0;
 
 	printf("Áú·®(kg)? ");
 	scanf("%lf", &mass);

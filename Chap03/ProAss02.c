@@ -13,6 +13,12 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+
+ /*
+ * 함수명 : solve()
+ * 기능(책임) : 가로와 세로의 길이를 입력받아 직사각형의 넓이와 둘레를 구함.
+ * 반환 : 없음
+ */
 void solve() 
 {
 	int ga, sa;

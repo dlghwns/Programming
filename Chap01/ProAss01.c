@@ -12,7 +12,12 @@
 
 #include <stdio.h>
 
-void a() 
+ /*
+ * 함수명 : show()
+ * 기능(책임) : 텍스트를 출력해줌.
+ * 반환 : 없음.
+ */
+void show() 
 {
 	printf("FirstApp 프로그램\n");
 	printf("작성자: 이호준\n");

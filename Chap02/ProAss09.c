@@ -9,7 +9,13 @@
  * 버전: v1.0
 
  */
-\
+
+
+ /*
+ * 함수명 : solve()
+ * 기능(책임) : 16진수 정수를 입력받아 10진수로 출력해줌.
+ * 반환 : 없음
+ */
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 

@@ -13,7 +13,11 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-
+ /*
+ * 함수명 : solve()
+ * 기능(책임) : 한 변의 길이를 입력받아 정사각형의 넓이와 둘래를 구함.
+ * 반환 : 없음
+ */
 void solve() 
 {
 	int a;

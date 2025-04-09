@@ -16,6 +16,12 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+
+ /*
+ * 함수명 : solve()
+ * 기능(책임) : 실수를 입력받아 제곱과 세제곱을 출력해준다.
+ * 반환 : 없음
+ */
 void solve() 
 {
 	double num;
