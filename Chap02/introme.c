@@ -14,6 +14,12 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+
+ /*
+ * 함수명 : introme()
+ * 기능(책임) : 이름, 나이, 인삿말을 받아 출력함.
+ * 반환 : 없음.
+ */
 void introme() 
 {
 	int age;

@@ -13,6 +13,12 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+
+ /*
+ * 함수명 : solve()
+ * 기능(책임) : 커피 사이즈와 수량을 입력받아 출력함.
+ * 반환 : 없음
+ */
 void solve() 
 {
 	printf("커피 사이즈(S, T, G)와 주문 수량?\n");

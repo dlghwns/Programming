@@ -14,15 +14,30 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
- //섭씨온도 = (화씨온도 - 32) * 5 / 9
+ /*
+ * 함수명 : double()
+ * 기능(책임) : 섭씨온도를 구하는 공식에 계산해줌
+ * 반환 : 계산한 result값.
+ */
+double cal(double a)
+{
+	double result = (a - 32) * (5.0 / 9.0);
+	return result;
+}
 
+
+/*
+* 함수명 : solve()
+* 기능(책임) : 화씨온도를 입력받고 cal함수를 출력함.
+* 반환 : 없음
+*/
 void solve()
 {
 	float c = 0;
 	printf("화씨온도?");
 	scanf("%f", &c);
-	printf("%.2f F =  %.2f C\n", c, (c - 32) * 5 / 9);
 
+	printf("%.2f F = %.2lf C", c, cal(c));
 }
 
 

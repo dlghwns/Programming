@@ -13,6 +13,12 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h> 
 
+
+ /*
+ * 함수명 : solve()
+ * 기능(책임) : 번호와 학점을 입력받아 출력함.
+ * 반환 : 없음
+ */
 void solve() 
 {
 	printf("번호?\n");

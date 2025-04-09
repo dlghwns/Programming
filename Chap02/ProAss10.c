@@ -14,6 +14,12 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+
+ /*
+ * 함수명 : solve()
+ * 기능(책임) : 숫자를 입력받아 8, 10, 16진수로 출력해줌.
+ * 반환 : 없음
+ */
 void solve() 
 {
 	printf("8진수로 입력하려면 012, 16진수로 입력하려면 0x12처럼 입력하세요.\n");

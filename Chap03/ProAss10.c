@@ -13,6 +13,12 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+
+ /*
+ * 함수명 : solve()
+ * 기능(책임) : USD를 입력받아 원 달러 환율을 구해 출력해준다.
+ * 반환 : 없음
+ */
 void solve() 
 {
 	int usd;

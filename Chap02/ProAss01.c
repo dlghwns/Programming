@@ -12,6 +12,12 @@
 
 #include <stdio.h>
 
+
+ /*
+ * 함수명 : solve()
+ * 기능(책임) : 여러라인의 텍스트를 출력함.
+ * 반환 : 없음
+ */
 void solve() 
 {
 	printf("int main(void)\n{ \n     return 0;\n}");

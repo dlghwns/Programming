@@ -14,6 +14,13 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+ /*
+ * 함수명 : solve()
+ * 기능(책임) : 반지름의 값을 입력받아 부피의 값을 계산하여 준다.
+ * 반환 : 반지름은 음수일 수 없으므로 0초과인지 확인한다,
+ *		  0 초과이면 0을 반환하고
+ *        0 이하이면 1을 반환한다.
+ */
 int solve()
 {
 	const double PI = 3.141592;

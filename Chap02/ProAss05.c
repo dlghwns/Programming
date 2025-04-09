@@ -14,6 +14,12 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+
+ /*
+ * 함수명 : solve()
+ * 기능(책임) : 몸무게를 입력받아 출력함.
+ * 반환 : 없음
+ */
 void solve() 
 {
 	printf("몸무게?\n");

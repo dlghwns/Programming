@@ -14,6 +14,14 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+
+ /*
+ * 함수명 : solve()
+ * 기능(책임) : 질량과 부피를 입력받아 계산을 해준다
+
+ * 반환 : 두 수의 값이 모두 양수이면 0을 반환,
+ *		  두 수중 하나라도 음수이면 1을 반환한다.
+ */
 int solve()
 {
 	float g, cm3 = 0;
@@ -23,7 +31,7 @@ int solve()
 	printf("부피(cm^3)? ");
 	scanf("%f", &cm3);
 
-	if ((g * cm3) > 0)
+	if (g && cm3 > 0)
 	{
 		printf("밀도 : %f\n", g / cm3);
 		return 0;

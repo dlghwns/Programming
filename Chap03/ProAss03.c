@@ -14,6 +14,12 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+
+ /*
+ * 함수명 : calcPositonEnergy()
+ * 기능(책임) :
+ * 반환 : energy, 매개변수 높이와 무게와 9.8을 곱한값을 반환함.
+ */
 double calcPositonEnergy(int weight, int height) 
 {
 	double energy = weight * height * 9.8;
@@ -22,6 +28,11 @@ double calcPositonEnergy(int weight, int height)
 }
 
 
+/*
+* 함수명 : assignment0303()
+* 기능(책임) : 질량과 높이를 입력받아 calcPositonEnergy함수를 출력.
+* 반환 : 없음
+*/
 void assignment0303() 
 {
 	int kg, m;

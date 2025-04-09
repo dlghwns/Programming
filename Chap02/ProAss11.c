@@ -15,6 +15,12 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+
+ /*
+ * 함수명 : solve()
+ * 기능(책임) : 파이값을 소수점 단위로 출력해줌.
+ * 반환 : 없음
+ */
 void solve() 
 {
 	double pi = 3.14159265;

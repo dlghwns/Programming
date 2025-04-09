@@ -14,7 +14,15 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-
+ /*
+ * 함수명 : solve()
+ * 기능(책임) : 용매와 용질을 입력받아 농도를 계산함.
+ *				단 농도가 음수일 수 없으므로
+ *				용매 && 용질의 값이 0초과인지 확인함.
+ * 
+ * 반환 : 두 수의 값이 모두 양수이면 0을 반환,
+ *		  두 수중 하나라도 음수이면 1을 반환한다.
+ */
 int solve()
 {
 	float mae, jil = 0;
@@ -25,7 +33,7 @@ int solve()
 	printf("용질(g)? ");
 	scanf("%f", &jil);
 
-	if ((jil * mae) > 0)
+	if (jil && mae > 0)
 	{
 		printf("농도 : %.2f %%\n", (jil / (mae + jil)) * 100);
 		return 0;

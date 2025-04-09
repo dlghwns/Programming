@@ -15,6 +15,12 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+
+ /*
+ * 함수명 : solve()
+ * 기능(책임) : 힘과 이동거리를 입력받아 일의 양을 구한다
+ * 반환 : 없음
+ */
 void solve() 
 {
 	float n, m;
