@@ -15,40 +15,37 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Chap04\ProAss01\ProAss01.c">
+    <ClCompile Include="..\..\Chap05\ProAss01\ProAss01.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Chap04\ProAss03\ProAss03.c">
+    <ClCompile Include="..\..\Chap05\ProAss02\ProAss02.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Chap04\ProAss02\ProAss02.c">
+    <ClCompile Include="..\..\Chap05\ProAss03\ProAss03.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Chap04\ProAss04\ProAss04.c">
+    <ClCompile Include="..\..\Chap05\ProAss04\ProAss04.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Chap04\ProAss05\ProAss05.c">
+    <ClCompile Include="..\..\Chap05\ProAss05\ProAss05.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Chap04\ProAss06\ProAss06.c">
+    <ClCompile Include="..\..\Chap05\ProAss08\ProAss08.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Chap04\ProAss07\ProAss07.c">
+    <ClCompile Include="..\..\Chap05\ProAss09\ProAss09.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Chap04\ProAss08\ProAss08.c">
+    <ClCompile Include="..\..\Chap05\ProAss14\ProAss14.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Chap04\ProAss09\ProAss09.c">
+    <ClCompile Include="..\..\Chap05\ProAss16\ProAss16.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Chap04\ProAss15\ProAss15.c">
+    <ClCompile Include="..\..\Chap05\ProAss17-18\ProAss17-18.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Chap04\ProAss16\ProAss16.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Chap04\ProAss17\ProAss17.c">
+    <ClCompile Include="..\..\Chap05\testProject\project1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
