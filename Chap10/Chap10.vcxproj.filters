@@ -21,6 +21,21 @@
     <ClCompile Include="..\..\Chap10\Project1\main.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ProAss01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ProAss03.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ProAss08.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ProAss13.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ProAss18.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Chap10\Project1\contact.h">
